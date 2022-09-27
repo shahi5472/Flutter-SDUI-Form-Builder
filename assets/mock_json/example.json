@@ -1,0 +1,53 @@
+{
+  "data": {
+    "sections": [
+      {
+        "ui_type": "text_form_field",
+        "content": {
+          "hint": "Enter your name",
+          "label": "Name",
+          "input_type": "text",
+          "value": null,
+          "validate_message": "Name is required!",
+          "read_only": false,
+          "attribute": "name"
+        },
+        "action": null
+      },
+      {
+        "ui_type": "text_form_field",
+        "content": {
+          "hint": "Enter your email",
+          "label": "Email Address",
+          "input_type": "email",
+          "value": null,
+          "validate_message": "Email is required!",
+          "read_only": false,
+          "attribute": "email"
+        },
+        "action": null
+      },
+      {
+        "ui_type": "text_form_field",
+        "content": {
+          "hint": "Enter your password",
+          "label": "Password",
+          "input_type": "password",
+          "value": null,
+          "validate_message": "Password is required!",
+          "read_only": false,
+          "attribute": "password"
+        },
+        "action": null
+      },
+      {
+        "ui_type": "elevated_button",
+        "content": null,
+        "action": {
+          "title": "Submit",
+          "type": "form_submit"
+        }
+      }
+    ]
+  }
+}
